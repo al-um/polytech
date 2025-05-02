@@ -8,6 +8,8 @@ drop table if exists notion;
 drop table if exists contenu;
 drop table if exists passage;
 
+SET DateStyle TO 'European' ;
+
 create table ETABLISSEMENT(		RNE varchar(8), 
 								NOM varchar(50) not null, 
 								LOCALITE varchar(30),
